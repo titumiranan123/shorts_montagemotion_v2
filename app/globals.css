@@ -1,26 +1,170 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: normal;
+  src: url("./../public/assets/font/glancyr-glancyr-regular-400.ttf");
+}
+
+@font-face {
+  font-family: semibold;
+  src: url("./../public/assets/font/glancyr-glancyr-semibold-600.ttf");
+}
+
+@font-face {
+  font-family: regulardin;
+  src: url("./../public/assets/font/DIN-2014_Regular.otf");
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.normal {
+  font-family: normal;
+}
+
+.regular {
+  font-family: regulardin;
+}
+
+.optioncard:hover {
+  background: linear-gradient(180deg, #ffffff -7.81%, #25aae1 146.35%);
+}
+
+.bg {
+  background: linear-gradient(180deg, #ffffff -7.81%, #25aae1 146.35%);
+}
+
+.shadow {
+  box-shadow: 0px 4px 20px 0px #ffffff29;
+}
+
+/* swiper custom slider
+ */
+
+/* Adjust for tablets */
+button {
+  cursor: pointer !important;
+}
+
+.swiper {
+  height: 680px !important;
+  width: 487px !important;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --swiper-navigation-size: 32px !important;
+}
+.swipers {
+  height: 858px !important;
+  width: 100% !important;
+  margin: 0 auto;
+}
+.swipers .swiper-button-prev {
+  background: white !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+.swipers .swiper-button-next {
+  background: white !important;
+  border-radius: 50% !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+.swipers .swiper-pagination .swiper-pagination-bullet {
+  background: white;
+  width: 20px !important;
+}
+.swipers
+  .swiper-pagination
+  .swiper-pagination-bullet
+  .swiper-pagination-bullet-active {
+  background: rgb(240, 86, 86) !important;
+  width: 20px !important;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Default for larger screens */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Adjust for mobile devices */
+@media (max-width: 640px) {
+  .swiper {
+    height: 540px !important;
+    width: 300px !important;
+  }
+  .swipers {
+    height: 698px !important;
+  }
+}
+@media (min-width: 641px) and (max-width: 820px) {
+  .swiper {
+    height: 680px !important;
+    width: 487px !important;
+  }
+  .swipers {
+    height: 818px !important;
+    width: 600px !important;
+    margin: 0 auto;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.swiper-button-prev-custom,
+.swiper-button-next-custom {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  /* Color of the icon */
+  font-size: 20px;
+  /* Size of the icon */
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev-custom {
+  left: 425px;
+  rotate: 90deg;
+  /* Position the previous button */
+}
+
+.swiper-button-next-custom {
+  right: -68px;
+  /* Position the next button */
+  rotate: 90deg;
+}
+
+/* Adjustments for mobile screens */
+@media (max-width: 640px) {
+  .swiper-button-prev-custom {
+    left: 256px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
+
+  .swiper-button-next-custom {
+    right: 0px;
+    /* Adjust the position for mobile screens */
+    font-size: 18px;
+    /* Slightly smaller icon size */
+  }
 }
