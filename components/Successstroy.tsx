@@ -46,10 +46,12 @@ const Successstory: React.FC = () => {
   return (
     <div className="max-w-[1240px] lg:mt-0 md:mt-20 lg:px-0 mx-auto px-4">
       <div className="flex justify-center flex-col items-center">
-        <h1 className="text-white bold lg:text-[56px] md:text-[56px] text-[28px] md:w-[511px] flex justify-center items-center md:leading-[64px] text-center leading-[32px]">
-          OUR SUCCESS STORY
+        
+        <h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] font-poppins font-bold md:text-[56px] md:w-[791px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px] lg:w-[511px] w-full
+        ">
+        OUR SUCCESS STORY
         </h1>
-        <p className="regular mt-[16px] font-[600] md:text-[20px] text-[14px] leading-[16px] text-[#D9D9D9] md:md:leading-[25.6px]">
+        <p className="ptag mt-[16px] text-[#D9D9D9] ">
           There are numbers of video editing agencies out there but we stand out
           for a reason.
         </p>
@@ -95,10 +97,10 @@ const Successstory: React.FC = () => {
                     />
                   </div>
                   <div>
-                    <h1 className="semibold md:text-[24px] text-[20px] text-[#D9D9D9]">
+                    <h1 className="font-[600] font-poppins md:text-[24px] text-[20px] text-[#D9D9D9]">
                       {testimonial.name}
                     </h1>
-                    <p className="regular font-[500] md:text-[20px] text-[14px] text-[#D9D9D9] md:leading-[25.6px] leading-[16px]">
+                    <p style={{fontWeight:500}} className="ptag  text-[#D9D9D9] ">
                       {testimonial.role}
                     </p>
                   </div>

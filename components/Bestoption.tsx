@@ -7,10 +7,10 @@ const Bestoption: React.FC = () => {
   return (
     <div className="max-w-[1240px] lg:px-0 px-4 md:scale-100 scale-90 mx-auto lg:mt-[37px] md:mt-32">
       <div className="flex justify-center flex-col items-center ">
-        <h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold md:text-[56px] md:w-[791px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px]">
+        <h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] font-poppins font-bold md:text-[56px] md:w-[791px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px]">
           WHY WE ARE THE BEST OPTION FOR YOU
         </h1>
-        <p className="opensans mt-[16px] font-[600] md:text-[20px] text-[14px] leading-[16px] text-[#D9D9D9] md:md:leading-[25.6px]">
+        <p className="mt-[16px] ptag text-[#D9D9D9] ">
           There are numbers of video editing agencies out there but we stand out
           for a reason.{" "}
         </p>
@@ -19,10 +19,10 @@ const Bestoption: React.FC = () => {
         <div className="w-[338px] optioncard transition-colors duration-300 h-[322px] pt-[40px] pb-[40px] flex group flex-col items-center rounded-[10px] justify-center md:gap-6 gap-2">
           <Image src={delivary} alt="" />
           <div className="p-5">
-            <h1 className="md:text-[36px] semibold text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px]">
+            <h1 className="md:text-[36px] font-poppins font-[600] text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px] ">
               Fast Delivery{" "}
             </h1>
-            <p className="regular font-[600] md:text-[20px] group-hover:text-[#03070D] text-[#D9D9D9] md:leading-[25.6px] text-center lg:text-left text-[14px] leading-[16px]  mt-2 md:mt-0">
+            <p className=" ptag group-hover:text-[#03070D] text-[#D9D9D9]  text-center lg:text-left  mt-2 md:mt-0">
               There are numbers of video editing agencies out there but we stand
               out for a reason.
             </p>
@@ -31,10 +31,10 @@ const Bestoption: React.FC = () => {
         <div className="w-[338px] optioncard transition-colors duration-300 h-[322px] pt-[40px] pb-[40px] flex group flex-col items-center rounded-[10px] justify-center md:gap-6 gap-2">
           <Image src={quality} alt="d" />
           <div className="p-5">
-            <h1 className="md:text-[36px] semibold text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px]">
+            <h1 className="md:text-[36px] font-poppins font-[600] text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px]">
               High Quality{" "}
             </h1>
-            <p className="regular font-[600] md:text-[20px] group-hover:text-[#03070D] text-[#D9D9D9] md:leading-[25.6px] text-center lg:text-left text-[14px] leading-[16px]  mt-2 md:mt-0">
+            <p className="ptag group-hover:text-[#03070D] text-[#D9D9D9]  text-center lg:text-left  mt-2 md:mt-0">
               There are numbers of video editing agencies out there but we stand
               out for a reason.
             </p>
@@ -43,10 +43,10 @@ const Bestoption: React.FC = () => {
         <div className="w-[338px] optioncard transition-colors duration-300 h-[322px] pt-[40px] pb-[40px] flex group flex-col items-center rounded-[10px] justify-center md:gap-6 gap-2">
           <Image src={support} alt="" />
           <div className="p-5">
-            <h1 className="md:text-[36px] semibold text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px]">
+            <h1 className="md:text-[36px] font-poppins font-[600] text-white group-hover:text-[#03070D] lg:text-left text-center text-[24px]">
               24/7 Support{" "}
             </h1>
-            <p className="regular font-[600] md:text-[20px] group-hover:text-[#03070D] text-[#D9D9D9] md:leading-[25.6px] text-center lg:text-left text-[14px] leading-[18px] mt-2 md:mt-0">
+            <p className="ptag group-hover:text-[#03070D] text-[#D9D9D9]  text-center lg:text-left  mt-2 md:mt-0">
               There are numbers of video editing agencies out there but we stand
               out for a reason.
             </p>

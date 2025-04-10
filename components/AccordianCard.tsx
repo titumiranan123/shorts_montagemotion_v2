@@ -30,7 +30,7 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, description }) => {
           onClick={toggleAccordion}
           className="flex justify-between w-full "
         >
-          <span className="tracking-[1.5px] semibold md:w-[564px] md:text-[24px] text-left leading-[20px] md:leading-[28px] text-[16px]">
+          <span className="tracking-[1.5px] font-poppins font-[600] md:w-[564px] md:text-[24px] text-left leading-[20px] md:leading-[28px] text-[16px]">
             {title}
           </span>
           <div className="w-10 relative">
@@ -51,9 +51,9 @@ const AccordionCard: FC<AccordionCardProps> = ({ title, description }) => {
             isVisible ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
-          <div className="font-light mt-2 md:w-[564px] md:text-[16px] lg:leading-[20px] leading-[18px] regular text-[14px]">
+          <p  className=" mt-2 md:w-[564px] font-[400] text-[14px] leading-[18px] md:text-[16px]   md:leading-[25.6px] ">
             {description}
-          </div>
+          </p>
         </div>
       </div>
     </div>

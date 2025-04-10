@@ -90,7 +90,7 @@ const Shortvideo: React.FC = () => {
         <h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold md:text-[64px] text-left md:leading-[64px] leading-[32px] text-[28px] w-full">
           OUR RECENT PROJECT
         </h1>
-        <p className="opensans mt-[14px] md:mt-[34px] font-[600] md:text-[20px] text-[#D9D9D9] md:w-[505px] md:leading-[25.6px] leading-[18px] text-[14px]">
+        <p className="mt-[14px] md:mt-[34px] ptag text-[#D9D9D9] md:w-[505px] ">
           Montage motion is the reliable digital solutions provider to grow your
           business 3x faster. We provide services on Video Editing and special
           service on Podcast.
@@ -98,7 +98,7 @@ const Shortvideo: React.FC = () => {
         <Link
           href={"https://calendly.com/imonofficial2/30min?month=2024-07"}
           target="_blank"
-          className="py-4 mt-[30px] md:mt-[52px] md:px-6 px-4 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center opensans font-[700] md:text-[20px] text-[14px] text-[#03070D] md:w-[280px] w-[200px] shadow"
+          className="py-4 mt-[30px] md:mt-[52px] md:px-6 px-4 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center ptag text-[#03070D] md:w-[280px] w-[200px] shadow"
         >
           Get Your Shorts Edited
         </Link>

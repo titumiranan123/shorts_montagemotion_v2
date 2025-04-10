@@ -21,7 +21,7 @@ export default function Home() {
       <Accordion />
       <Pricing />
       <Footer />
-      <div className="poppins max-w-[1240px] px-4 mx-auto text-white flex justify-center  lg:justify-between lg:flex-nowrap flex-wrap items-center md:text-[18px] gap-2 pb-4 leading-[25.6px] text-center text-[14px] mt-[120px]">
+      <div className="font-poppins ptag max-w-[1240px] px-4 mx-auto text-white flex justify-center  lg:justify-between lg:gap-48 md:gap-20 gap-4 lg:flex-nowrap flex-wrap items-center   pb-4  mt-[120px] mb-8">
         <div className="flex gap-4 lg:flex-nowrap flex-wrap">
           <Link
             className="hover:underline"

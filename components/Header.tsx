@@ -45,22 +45,21 @@ const Header: React.FC = () => {
             <h1 className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] poppins font-bold lg:text-[96px] md:text-[64px] text-[32px] leading-[35px]  flex justify-center items-center lg:leading-[96px] md:leading-[64px] text-center lg:w-[1153px] ">
               GET YOUR FIRST SHORTS VIDEO FREE
             </h1>
-            <p className="opensans mt-[34px] font-[600] text-[14px] leading-[16px] md:text-[16px] lg:text-[20px] text-[#D9D9D9] md:leading-[25.6px] px-2">
-              There are numbers of video editing agencies out there but we stand
-              out for a reason.{" "}
+            <p className="ptag mt-[34px] text-[#D9D9D9] text-center lg:w-[870px] w-full px-2 ">
+              Montage motion is the reliable digital solutions provider to grow your business 3x faster. We provide services on Video Editing and special service on Podcast.
             </p>
             <div className="flex flex-wrap gap-2 mt-[59px]">
               <Link
                 href={"https://calendly.com/imonofficial2/30min?month=2024-07"}
                 target="_blank"
-                className="py-4 px-6 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center opensans font-[700] md:text-[20px] text-[#03070D] shadow text-[12px]"
+                className="py-4 px-6 border bg-[#FFFFFF] rounded-[16px] flex justify-center items-center ptag text-[#03070D] shadow "
               >
                 Book a Call
               </Link>
               <Link
                 href={"https://montagemotion.com/work/video-editing"}
                 target="_blank"
-                className="py-4 px-6 border  rounded-[16px] flex justify-center items-center opensans font-[700] text-[12px] text-white md:text-[20px]"
+                className="py-4 px-6 border  rounded-[16px] flex justify-center items-center ptag text-white "
               >
                 See Our Works
               </Link>

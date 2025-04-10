@@ -5,22 +5,22 @@ const Accordion = () => {
   return (
     <div className="text-[#E4E8F7] lg:mt-0 lg:px-0  md:mt-[80px] max-w-[1240px] mx-auto px-4 md:px-4">
       <div className="lg:w-1/2 mx-auto mb-[84px] text-center">
-        <p className="uppercase lg:text-[56px] md:text-[56px] text-[30px] font-bold md:leading-[56px] tracking-[0.8px]">
+        <p className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFFFFF] to-[#25AAE1] font-poppins font-bold md:text-[56px] md:w-[791px] flex justify-center items-center md:leading-[64px] text-center text-[28px] leading-[32px]">
           Frequently Asked Questions (FAQ)
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
-          <h1 className="lg:text-[48px] md:text-[44px] text-[26px] font-bold leading-[30px] lg:leading-[48px]">
+          <h1 className="lg:text-[48px] md:text-[44px] text-[26px] font-bold leading-[30px] lg:leading-[48px] font-poppins">
             Have Questions?
           </h1>
-          <p className="md:text-[20px] text-[16px] leading-[20px] md:leading-[25.6px] md:mt-5 mt-2 mb-10 md:mb-10 ">
+          <p className="ptag md:mt-5 mt-2 mb-10 md:mb-10 ">
             Have more questions? Book a free strategy call .
           </p>
           <Link
             href={"https://calendly.com/imonofficial2/30min?month=2024-07"}
             target="_blank"
-            className="bg-[#25AAE1] py-4 px-6 text-white rounded-[16px] mt-4 lg:mt-[30px] md:text-[20px] text-[14px]"
+            className="bg-[#25AAE1] py-4 px-6 text-white rounded-[16px] mt-4 lg:mt-[30px] ptag"
           >
             Book a Call
           </Link>
